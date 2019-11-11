@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1904b
+    username: root
+    password: 1234
+  data:
+    elasticsearch:
+      #集群名称
+      cluster-name: my-application
+      #连接的集群节点
+      cluster-nodes: localhost:9300
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
