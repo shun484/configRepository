@@ -1,9 +1,4 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/1904b
-    username: root
-    password: 1234
+spring:  
   data:
     elasticsearch:
       #¼¯ÈºÃû³Æ
